@@ -1,0 +1,73 @@
+.navbar-nav a{
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-brand{
+  color: green;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-left:5%;
+}
+
+.navbar-light .navbar-nav .nnav-link{
+  color: #fff;
+
+}
+.navbar-nav{
+  text-align: center;
+}
+.nav-link{
+  padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus{
+  color: black !important;
+}
+
+.w-100{
+  height:100vh;
+}
+.bg-light{
+  background-color: white!important;
+
+
+}
+.nav-link{
+  color: green !important;
+}
+.nav-item .nav-link  a:hover{
+  color: blue !important;
+}
+
+
+
+/*cover image start*/
+
+.cover-img img{
+	margin-top: 50px;
+	
+}
+.login-form input{
+	width: 80%;
+	justify-content: center;
+	border: 1px solid;
+	margin-left:5%;
+	outline: 0;
+  background: #f2f2f2;
+  box-sizing: border-box;
+}
+.login-form button{
+	width: 50%;
+	text-align: center;
+	margin-top:10px;
+}
+
+@media (max-width: 767px) {
+	.cover-img img{
+		
+		
+	}
+}
